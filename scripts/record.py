@@ -41,7 +41,7 @@ def record(
         "--teleop.type=so101_leader",
         f"--teleop.port={leader_port}",
         "--teleop.id=my_leader",
-        '--robot.cameras={ phone: {type: opencv, index_or_path: 1, width: 640, height: 480, fps: 30}}',
+        "--robot.cameras={ phone: {type: opencv, index_or_path: 1, width: 640, height: 480, fps: 30}}",
         f"--dataset.repo_id={dataset_repo_id}",
         f"--dataset.num_episodes={num_episodes}",
         f"--dataset.single_task={task}",
