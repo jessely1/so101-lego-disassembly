@@ -4,7 +4,6 @@ Uses LeRobot ACT policy with demonstration dataset from Hugging Face
 """
 
 import subprocess
-import sys
 
 
 def train(
