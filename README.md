@@ -16,8 +16,15 @@ Track 1: Imitation Learning / Behaviour Cloning using ACT (Action Chunking Trans
 ## Trained Model
 - Policy: ACT (Action Chunking Transformer)
 - Training steps: 100,000
-- Final loss: ~0.057
+- Final loss: 0.057
 - Model: https://huggingface.co/Jessely/lego_disassembly2_act
+
+## Checkpoints
+Model checkpoints are available on HuggingFace (too large for GitHub):
+- Final model: https://huggingface.co/Jessely/lego_disassembly2_act
+- Red lego model: https://huggingface.co/Jessely/lego_red_act (in progress)
+- White lego model: https://huggingface.co/Jessely/lego_white_act (in progress)
+- Grey lego model: https://huggingface.co/Jessely/lego_grey_act (in progress)
 
 ## Installation
 
@@ -42,25 +49,26 @@ Track 1: Imitation Learning / Behaviour Cloning using ACT (Action Chunking Trans
 
 ## Results
 - Training loss: 0.057 (100K steps)
-- Robot successfully moves toward target position
-- Limitation: inference speed 11Hz vs 30Hz target
+- Robot successfully follows trajectories similar to demonstrations
+- Robot places lego in correct base when grip succeeds
+- Limitation: inference speed 11Hz vs 30Hz target causes precision issues
 
 ## Repository Structure
 
     so101-lego-disassembly/
-    README.md
-    Dockerfile
-    requirements.txt
-    data/
-        dataset_link.md
-    scripts/
-        train.py
-        evaluate.py
-        record.py
-    results/
-        metrics/
-        plots/
-        videos/
+    ├── README.md
+    ├── Dockerfile
+    ├── requirements.txt
+    ├── .gitignore
+    ├── .github/workflows/ci.yml
+    ├── scripts/
+    │   ├── train.py
+    │   ├── evaluate.py
+    │   └── record.py
+    └── results/
+        ├── metrics/
+        ├── plots/
+        └── videos/
 
 ## Team
 ITESM — Intelligent Control Module
