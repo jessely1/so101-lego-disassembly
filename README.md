@@ -2,6 +2,13 @@
 
 Final project for the Intelligent Control Module at ITESM.
 
+## Members
+
+Gustavo Alexander Nuño Corvera
+Luis Carlos Ortiz de Montellano Gómez
+Jessely Santiago Bahena
+Alfredo Garzon Murillo
+
 ## Selected Task
 
 Option 1: Lego Storage — The SO101 robot arm learns to pick Lego pieces by color (red, white, grey) and place them in a target base using Imitation Learning.
