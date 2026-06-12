@@ -4,10 +4,10 @@ Final project for the Intelligent Control Module at ITESM.
 
 ## Members
 
-Gustavo Alexander Nuño Corvera
-Luis Carlos Ortiz de Montellano Gómez
-Jessely Santiago Bahena
-Alfredo Garzon Murillo
+- Gustavo Alexander Nuño Corvera
+- Luis Carlos Ortiz de Montellano Gómez
+- Jessely Santiago Bahena
+- Alfredo Garzon Murillo
 
 ## Selected Task
 
